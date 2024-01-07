@@ -48,3 +48,31 @@ h5{
 
 
 }
+.hero{
+    width: 1320px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+}
+.hero-text>h2{
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.hero{
+    font-family: 'Inter',sans-serif;
+    line-height: normal;
+    word-spacing: 3px;
+}
+.hero-text>p{
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.hero-text>h4{
+    font-size: 25px;
+    font-weight: 700;
+}
