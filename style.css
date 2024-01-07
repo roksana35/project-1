@@ -50,7 +50,7 @@ h5{
 }
 .hero{
     width: 1320px;
-    height: 900px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -75,4 +75,38 @@ h5{
 .hero-text>h4{
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner2{
+    width: 1320px;
+    height: 600px;
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('resources/Vectorrr.png') ;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 200px;
+    margin: 10px;
+    border-radius: 25px;
+    
+}
+.text-banner2>h2{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+letter-spacing: 7.04px;
+margin-bottom: 20px;
+}
+.text-banner2>p{
+    color: #FFF;
+    font-size: 16px;
+}
+.text-banner2>button{
+    margin-top: 50px;
+    padding: 5px;
+    color: #FFF;
+    background-color: #2e2938;
+    
 }
